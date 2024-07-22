@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color-scheme: light;
+  font-family: "Manrope", sans-serif;
+}
+
+:root {
+  --heading-size-1: 16px;
+  --text-size: 10px;
+
+  /*Colors*/
+  --backgound-color-1: #212632;
+  --background-color-2: #303a49;
+  --text-color: #cde0ea;
+  --heading-color: #53fea9;
+  --button-color: #53fea9;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: var(--backgound-color-1);
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout {
+  background-color: var(--background-color-2);
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2rem;
+  gap: 1rem;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: var(--text-size);
+}
+.header_heading {
+  color: var(--heading-color);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 6px;
+}
+
+.layout_main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main_advice {
+  width: 100%; /* Full width of the container */
+  overflow: hidden; /* Hide overflow content */
+  text-align: center; /* Center text horizontally */
+}
+
+.button_container {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.main_button {
+  position: absolute;
+  bottom: -47px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--button-color);
+  background-image: url(assets/icon-dice.svg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  outline: none;
+  appearance: none;
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  align-self: center;
+}
+
+p {
+  padding: 10px;
+}
