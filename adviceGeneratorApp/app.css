@@ -34,7 +34,7 @@ body {
 .layout {
   background-color: var(--background-color-2);
   width: 100%;
-  max-width: 300px;
+  max-width: 301px;
   display: flex;
   flex-direction: column;
   justify-content: center;
