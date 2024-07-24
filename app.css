@@ -67,6 +67,7 @@ body {
 
 .main_advice {
   width: 100%;
+  font-weight: 800;
   overflow: hidden;
   text-align: center;
 }
